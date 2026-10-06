@@ -54,7 +54,7 @@ class MCGoalAgentPlugin(BasePlugin):
         "完成目标，支持多目标并发、持久化与重启恢复。强依赖 mc_adapter 与"
         "mc_tools 插件已加载。"
     )
-    plugin_version: str = "1.0.0"
+    plugin_version: str = "1.0.1"
     plugin_author: str = "MoFox Team"
 
     configs: list[type] = [MCGoalAgentConfig]
